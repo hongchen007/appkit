@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: Administrator * Date: 2019/7/25 * Time: 15:44 */namespace app\admin\model;use think\Model;class ContactTool extends Model{    public function index()    {        $info = $this->select();        return $info;    }}
